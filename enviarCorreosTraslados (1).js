@@ -65,8 +65,8 @@ function enviarCorreosTraslados() {
 
   //guarda en una lista los correos de destinatarios
   const destinatariosPorGrupo = {
-    "Agencias & Grupos Homogeneos": ["angie.sosa@segurosbolivar.com"],
-    "Corredores & Agencias Multiples": ["lina.omaira.gonzalez@segurosbolivar.com"]
+    "Agencias & Grupos Homogeneos": ["correo .com"],
+    "Corredores & Agencias Multiples": ["correo .com"]
   };
 
   //Verifica el envio de correo de una empresa con la condicion "SI"

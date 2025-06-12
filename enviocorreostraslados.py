@@ -33,7 +33,7 @@ contraseña = getpass('Ingresa tu contraseña de Gmail: ')
 
 # Crear conexión SMTP con configuración explícita
 yag = yagmail.SMTP(
-    user='angie.sosa@segurosbolivar.com',
+    user='correo .com',
     password=contraseña,
     host='smtp.gmail.com',
     port=587,
@@ -48,7 +48,7 @@ data = worksheet.get_all_records()
 destinatarios = ['angie.sosa@segurosbolivar.com']
 
 yag.send(
-    to='angie.sosa@segurosbolivar.com',
+    to='correo .com',
     subject='Prueba de envío automático',
     contents='Hola, este es un mensaje de prueba enviado desde Google Colab.'
 )
